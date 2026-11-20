@@ -1,8 +1,0 @@
-{
-  "name": "HAGRad owner-only website",
-  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
-  "features": {"ghcr.io/devcontainers/features/github-cli:1": {}},
-  "forwardPorts": [8088],
-  "portsAttributes": {"8088": {"label": "HAGRad private website", "onAutoForward": "silent"}},
-  "otherPortsAttributes": {"onAutoForward": "ignore"}
-}
