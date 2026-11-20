@@ -1,7 +1,7 @@
 {
   "name": "HAGRad",
   "short_name": "HAGRad",
-  "description": "HAGRad cardiac CT research website. Viewer downloads require authorized GitHub access; DICOM processing stays local.",
+  "description": "HAGRad research website. Standalone macOS QCA downloads require authorized GitHub access; DICOM processing stays local.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

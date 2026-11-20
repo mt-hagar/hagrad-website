@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="HAGRad is a cardiac CT research framework with local DICOM workflows. Software downloads require access to the private GitHub release."
+      content="HAGRad research software. Standalone QCA for Apple Silicon macOS is available through an authorized private GitHub release."
     />
     <meta name="theme-color" content="#071620" />
     <meta name="application-name" content="HAGRad" />
@@ -756,7 +756,7 @@
             <h2>Research Preview</h2>
             <p>
               The research preview runs as a local browser-based application served from the user's
-              computer. The website is public; software downloads require the authorized GitHub account.
+              computer. Only standalone QCA for Apple Silicon macOS is offered for download.
             </p>
             <div class="status-list">
               <span>Local DICOM workflow</span>
@@ -878,42 +878,31 @@
         <section id="availability" aria-labelledby="availability-title">
           <div class="section-head">
             <p class="eyebrow">Availability</p>
-            <h2 id="availability-title">Viewer downloads</h2>
+            <h2 id="availability-title">QCA for macOS</h2>
             <p>
-              The website is public. The full Viewer, including QCA and the integrated
-              research workflows, is available only from the private GitHub release.
-              Sign in to GitHub as the authorized <code>mt-hagar</code> account to download.
-              There is no HAGRad registration or invitation service.
+              The website is public. Only the standalone QCA research preview is
+              offered for download. The comprehensive Viewer is not distributed here.
+              Sign in to GitHub as the authorized <code>mt-hagar</code> account to
+              download QCA. There is no HAGRad registration or invitation service.
             </p>
-            <p>HAGRad runs locally and keeps DICOM files on your computer.</p>
-            <p><a class="button primary" href="https://github.com/login?return_to=%2Fmt-hagar%2Fhagrad-viewer%2Freleases%2Ftag%2Fv0.9.5-research-preview" rel="noreferrer">Sign in to download</a></p>
+            <p>QCA runs locally and keeps DICOM files on your computer. A standalone Windows QCA build is not available yet.</p>
+            <p><a class="button primary" href="https://github.com/login?return_to=%2Fmt-hagar%2Fhagrad-qca%2Freleases%2Ftag%2Fqca-macos-preview-2026-11-19" rel="noreferrer">Sign in to download QCA</a></p>
           </div>
           <div class="doc-grid">
             <article class="info-card download-card">
-              <h3>macOS</h3>
-              <p><code>HAGRad-Viewer-macOS.dmg</code>. Research-preview builds are unsigned.</p>
+              <h3>Apple Silicon macOS</h3>
+              <p><code>HAGRad-QCA-macOS.dmg</code>. This Developer ID-unsigned research preview may trigger Gatekeeper.</p>
               <ol class="download-steps">
                 <li>Open the DMG.</li>
-                <li>Double-click <code>HAGRad Viewer.app</code>.</li>
-                <li><strong>First launch only:</strong> if macOS shows <span class="instruction-key">&quot;HAGRad Viewer&quot; Not Opened</span>, click Done. Open <span class="instruction-key">System Settings</span> &gt; <span class="instruction-key">Privacy &amp; Security</span>, scroll to <span class="instruction-key">Security</span>, then click <span class="instruction-key">Open Anyway</span> for HAGRad Viewer and confirm.</li>
+                <li>Double-click <code>HAGRad QCA.app</code>.</li>
+                <li><strong>First launch only:</strong> if macOS blocks the unsigned app, open <span class="instruction-key">System Settings</span> &gt; <span class="instruction-key">Privacy &amp; Security</span>, then choose <span class="instruction-key">Open Anyway</span> for HAGRad QCA and confirm.</li>
               </ol>
-            </article>
-            <article class="info-card download-card">
-              <h3>Windows</h3>
-              <p><code>HAGRad-Viewer-Windows.zip</code>. Research-preview builds are unsigned.</p>
-              <ol class="download-steps">
-                <li>Right-click the downloaded zip and choose <strong>Extract All</strong>.</li>
-                <li>Open the extracted folder, then double-click <code>HAGRad Viewer.exe</code>.</li>
-                <li><strong>First launch only:</strong> if Windows SmartScreen appears, choose More info, then Run anyway only for a copy previously obtained from the official HAGRad release.</li>
-              </ol>
-              <p>The executable bundles the launcher runtime, starts the local server, and uses localhost HTTP when HTTPS certificates are unavailable.</p>
             </article>
             <div class="download-note-box">
               <p>
                 <strong>Research use only.</strong> HAGRad is not a clinical product or medical device.
-                If launch fails, the app displays a message and writes logs to
-                <code>~/Library/Logs/HAGRad Viewer/</code> on macOS or
-                <code>%LOCALAPPDATA%\HAGRad Viewer\logs\</code> on Windows.
+                Only the standalone QCA macOS package is offered. The comprehensive
+                Viewer and a Windows QCA package are not available for download.
               </p>
             </div>
           </div>
