@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="HAGRad research software. Standalone QCA for Apple Silicon macOS is available through an authorized private GitHub release."
+      content="HAGRad research software. Standalone QCA for macOS and Windows is available through an authorized private GitHub release."
     />
     <meta name="theme-color" content="#071620" />
     <meta name="application-name" content="HAGRad" />
@@ -756,7 +756,7 @@
             <h2>Research Preview</h2>
             <p>
               The research preview runs as a local browser-based application served from the user's
-              computer. Only standalone QCA for Apple Silicon macOS is offered for download.
+              computer. Only standalone QCA for macOS and Windows is offered for download.
             </p>
             <div class="status-list">
               <span>Local DICOM workflow</span>
@@ -888,14 +888,14 @@
         <section id="availability" aria-labelledby="availability-title">
           <div class="section-head">
             <p class="eyebrow">Availability</p>
-            <h2 id="availability-title">QCA for macOS</h2>
+            <h2 id="availability-title">QCA downloads</h2>
             <p>
               The website is public. Only the standalone QCA research preview is
               offered for download. The comprehensive Viewer is not distributed here.
               Sign in to GitHub as the authorized <code>mt-hagar</code> account to
               download QCA. There is no HAGRad registration or invitation service.
             </p>
-            <p>QCA runs locally and keeps DICOM files on your computer. A standalone Windows QCA build is not available yet.</p>
+            <p>QCA runs locally and keeps DICOM files on your computer. Choose the macOS DMG or Windows ZIP after GitHub sign-in.</p>
             <p><a class="button primary" href="https://github.com/login?return_to=%2Fmt-hagar%2Fhagrad-qca%2Freleases%2Ftag%2Fqca-macos-preview-2026-11-19" rel="noreferrer">Sign in to download QCA</a></p>
           </div>
           <div class="doc-grid">
@@ -907,12 +907,24 @@
                 <li>Double-click <code>HAGRad QCA.app</code>.</li>
                 <li><strong>First launch only:</strong> if macOS blocks the unsigned app, open <span class="instruction-key">System Settings</span> &gt; <span class="instruction-key">Privacy &amp; Security</span>, then choose <span class="instruction-key">Open Anyway</span> for HAGRad QCA and confirm.</li>
               </ol>
+              <p><a class="button secondary" href="https://github.com/login?return_to=%2Fmt-hagar%2Fhagrad-qca%2Freleases%2Ftag%2Fqca-macos-preview-2026-11-19" rel="noreferrer">Get macOS QCA</a></p>
+            </article>
+            <article class="info-card download-card">
+              <h3>Windows</h3>
+              <p><code>HAGRad-QCA-Windows.zip</code>. This research-preview build is unsigned.</p>
+              <ol class="download-steps">
+                <li>Extract the ZIP.</li>
+                <li>Open <code>HAGRad QCA.exe</code>.</li>
+                <li><strong>First launch only:</strong> if Windows SmartScreen appears, choose More info, then Run anyway only for the package obtained from the private QCA release.</li>
+              </ol>
+              <p>The QCA executable starts a local server and opens the workflow in your browser.</p>
+              <p><a class="button secondary" href="https://github.com/login?return_to=%2Fmt-hagar%2Fhagrad-qca%2Freleases%2Ftag%2Fqca-macos-preview-2026-11-19" rel="noreferrer">Get Windows QCA</a></p>
             </article>
             <div class="download-note-box">
               <p>
                 <strong>Research use only.</strong> HAGRad is not a clinical product or medical device.
-                Only the standalone QCA macOS package is offered. The comprehensive
-                Viewer and a Windows QCA package are not available for download.
+                Only standalone QCA packages are offered. The comprehensive Viewer
+                is not available for download.
               </p>
             </div>
           </div>

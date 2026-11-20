@@ -1,7 +1,7 @@
 {
   "name": "HAGRad",
   "short_name": "HAGRad",
-  "description": "HAGRad research website. Standalone macOS QCA downloads require authorized GitHub access; DICOM processing stays local.",
+  "description": "HAGRad research website. Standalone macOS and Windows QCA downloads require authorized GitHub access; DICOM processing stays local.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
