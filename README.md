@@ -16,3 +16,6 @@ storage URL in HTML, JavaScript, configuration, commits, or Pages artifacts.
 The website is publicly readable. Downloads are not. Keep research-use-only and
 non-clinical text and unsigned macOS first-launch notes visible. DICOM stays
 local. See the private Viewer repository's `docs/private-access.md` for verification.
+
+The public QCA demonstration is `assets/hagrad-qca-demo.mp4`, a 720p web copy
+of the research demo. It is not a software package or a route to private assets.
