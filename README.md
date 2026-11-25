@@ -9,7 +9,7 @@ Only standalone QCA for Apple Silicon macOS and Windows is distributed, through 
 `mt-hagar/hagrad-qca` release. The comprehensive Viewer is not a website download.
 Website links go to GitHub sign-in and then the QCA release page, not to direct
 asset or storage URLs. GitHub checks private repository access before serving the
-DMG. There is no
+DMG or EXE. There is no
 HAGRad signup or password form. Do not put a username, password, token, or signed
 storage URL in HTML, JavaScript, configuration, commits, or Pages artifacts.
 
