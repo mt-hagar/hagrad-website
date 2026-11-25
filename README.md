@@ -5,11 +5,11 @@ Only static website files, icons, and approved media belong here. Never publish
 Viewer source, packages, DICOM files, patient data, exports, certificates, caches,
 credentials, or local tooling in this repository.
 
-Only standalone QCA for Apple Silicon macOS and Windows is distributed, through the private
-`mt-hagar/hagrad-qca` release. The comprehensive Viewer is not a website download.
-Website links go to GitHub sign-in and then the QCA release page, not to direct
-asset or storage URLs. GitHub checks private repository access before serving the
-DMG or EXE. There is no
+Standalone QCA and the comprehensive Viewer for Apple Silicon macOS and Windows
+are distributed through separate private binary-only repositories,
+`mt-hagar/hagrad-qca` and `mt-hagar/hagrad-viewer-downloads`. Website links go
+through GitHub sign-in directly to a DMG or EXE. GitHub checks private repository
+access before serving each file. There is no
 HAGRad signup or password form. Do not put a username, password, token, or signed
 storage URL in HTML, JavaScript, configuration, commits, or Pages artifacts.
 
